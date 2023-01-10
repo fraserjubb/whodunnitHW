@@ -11,7 +11,10 @@
 //   const verdict = declareMurderer();
 //   console.log(verdict);
 
-//   Miss Scarlett is the murderer as the Const variable has been applied at the outtermost scope.
+//   1) Miss Scarlett is the murderer as the Const variable has been applied at the outtermost scope.
+
+
+
 
 // const murderer = 'Professor Plum';
 
@@ -27,8 +30,9 @@
 // const verdict = declareMurderer();
 // console.log(verdict);
 
+// 2) It will return an error message as Const cannot be changed (which this code attempts to do)
 
-// It will return an error message as Const cannot be changed (which this code attempts to do)
+
 
 
 // let murderer = 'Professor Plum';
@@ -48,6 +52,8 @@
 // second verdict will be Professor Plum as no function has been run to change initial murderer.
 
 
+
+
 // let suspectOne = 'Miss Scarlet';
 // let suspectTwo = 'Professor Plum';
 // let suspectThree = 'Mrs. Peacock';
@@ -63,6 +69,9 @@
 
 // // 4) The suspects are Miss Scarlett, Professor Plum, Colonel Mustard (as function has been run to change suspect three)
 // // Suspect three is still Mrs Peacock as suspects function is unrelated to the console.log.
+
+
+
 
 // const scenario = {
 //     murderer: 'Miss Scarlet',
@@ -83,6 +92,9 @@
 //   console.log(verdict);
 
 // //   5) The weapon is changed to a revolver as the function is succesfully called.
+
+
+
 
 // let murderer = 'Colonel Mustard';
 
@@ -105,6 +117,9 @@
 // console.log(verdict);
 
 // // 6) The murderer is Mrs White as the plotTwist function is called before the {curly brackets} end.
+
+
+
 
 // let murderer = 'Professor Plum';
 
@@ -133,6 +148,9 @@
 // console.log(verdict);
 
 // // 7) Murderer is Mr Green as the initial function is a Const and therefore cannot be changed.
+
+
+
 
 // const scenario = {
 //     murderer: 'Mrs. Peacock',
@@ -170,6 +188,9 @@
 //   console.log(verdict);
 
 // // 8)  It is a candlestick as a it is the first and only instance of a Const used to change the weapon.
+
+
+
 
 let murderer = 'Professor Plum';
 
